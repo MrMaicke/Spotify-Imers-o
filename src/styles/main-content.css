@@ -15,6 +15,7 @@
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;
+    margin-left: 41vh;
 }
 
 .header__navigation .navigation{
@@ -74,13 +75,12 @@
 }
 
 .header__login .subscribe{
-    
     font-size: 16px;
     font-weight: 700;
+    color: #fff;
     background-color: transparent;
     margin-right: 32px;
     border: none;
-
 }
 
 .header__login .login{
@@ -98,6 +98,7 @@ height: 68vh;
 padding-top: 16px;
 margin: 10px;
 border-radius: 10px;
+margin-left: 41vh;
 background-color: #121212;
 }
 
@@ -135,7 +136,7 @@ background-color: transparent;
 /* FIM SCROLL */
 
 .offer__list-item {
-display: grid;
+display: grid;/* responcividade e estrutura */
 justify-items: center;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 grid-gap: 16px;
